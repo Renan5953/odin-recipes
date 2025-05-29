@@ -4,15 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | Odin Recipes</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <h1>Odin Recipes</h1>
+    <div class="header">
+        <img class="burger" src="./img/burger.svg" alt="burger image" height="40" width="50">
+        <h1>Odin Recipes</h1>
+        <img class="pizza" src="./img/pizza.svg" alt="pizza image" height="65" width="65">
+    </div>
     <main>
-    <ul>
-        <li><a href="./recipes/cheesebread.html">Brazilian Cheese Bread</a></li>
-        <li><a href="./recipes/feijoada.html">Traditional Brazilian Feijoada</a></li>
-        <li><a href="./recipes/brigadeiro.html">Brigadeiro</a></li>
+        <div class="recipe-list">
+            <nav>
+                <ul>
+                    <div class="recipe"><a href="./recipes/cheesebread.html"><li><img class="preview" src="./img/cheesebread.jpg" alt="Freshly baked Brazilian cheese breads served in a bowl" height="200" width="300">Brazilian Cheese Bread</li></a></div>
+                    <div class="recipe"><a href="./recipes/feijoada.html"><li><img class="preview" src="./img/feijoada.jpg" alt="Brazilian feijoada dish served with farofa, sautéed collard greens and orange slices" height="200" width="300"> Brazilian Feijoada</li></a></div>
+                    <div class="recipe"><a href="./recipes/brigadeiro.html"><li><img class="preview" src="./img/brigadeiro.jpg" alt="Close-up of chocolate brigadeiros covered in sprinkles" height="200" width="300">Brigadeiro</li></a></div>
+                </ul>
+            </nav>
+        </div>
     </main>
-    </ul>
 </body>
 </html>

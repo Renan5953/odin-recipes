@@ -4,7 +4,7 @@ This is a simple project created as part of [The Odin Project] course.
 
 ## About the Project
 
-The site features traditional Brazilian recipes, with individual pages for each dish. The current version was built using only HTML, without any CSS or JavaScript.
+The site features traditional Brazilian recipes, with individual pages for each dish. The current version was built using only HTML and basic CSS, without any JavaScript.
 
 ## Recipes Included
 
