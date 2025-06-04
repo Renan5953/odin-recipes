@@ -1,0 +1,67 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+h1 {
+    margin-left: 50px;
+    color: #000000;
+    font-size: 36px;
+}
+
+h1,
+.content {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    margin-left: 50px;
+    border-radius: 20px;
+}
+
+.content {
+    width: 750px;
+    margin: 50px;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 25px;
+    padding-top: 10px;
+    color: #000000;
+    background-color: #f0f0f0;
+}
+
+.info {
+    margin-top: -10px;
+}
+
+.step {
+    margin: 20px;
+}
+
+.substep {
+    margin: 10px;
+}
+
+a {
+    display: block;
+    width: 75px;
+    text-align: center;
+    margin: -20px 0px 30px 50px;
+    border: 3px solid brown;
+    border-radius: 20px;
+    padding: 10px;
+    color: #000000;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffffff;
+    background-color: brown;
+    transition: background-color 0.2s ease;
+}
